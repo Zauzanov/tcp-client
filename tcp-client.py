@@ -1,7 +1,7 @@
 import socket
 
-target_host = "192.168.204.129"
-target_port = 80
+target_host = "127.0.0.1"
+target_port = 9998
 
 # create socket object - IPv4/TCP
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
